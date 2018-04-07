@@ -25,12 +25,15 @@ Simbolo* Pila::pop(){
     return temp;        
 }
 
-void Pila::top(char objeto){
-
+Simbolo* Pila::top(){
+    return primero;
 }
 
-void Pila::isEmpty(char objeto){
-
+bool Pila::isEmpty(){
+    if(primero==NULL)
+        return true;
+    else   
+        return false;
 }
 
 Simbolo* Pila::getPrimero(){

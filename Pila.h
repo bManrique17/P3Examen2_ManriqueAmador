@@ -12,8 +12,8 @@ class Pila{
         Simbolo* getPrimero();
         void push(char);
         Simbolo* pop();
-        void top(char);
-        void isEmpty(char);
+        Simbolo* top();
+        bool isEmpty();
 };
 
 #endif
