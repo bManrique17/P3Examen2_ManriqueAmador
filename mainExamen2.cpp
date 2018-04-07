@@ -35,7 +35,7 @@ int main(){
 int evaluar(Pila* pila,int tamano){    
     
     char operacion = '_';
-    int resultado=0, tempNum1=0;
+    int resultado=1, tempNum1=0;
     char nombreNuevo;
     bool senuelo = false,bandera2 = false;
     for(int i=0 ; i<tamano ; i++){                
